@@ -1,0 +1,19 @@
+{
+  "name": "genarch",
+  "version": "1.0.0",
+  "description": "Gen Arch RN",
+  "main": "index.js",
+  "scripts": {
+    "test": "run-rn_arch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wurq/GenArch.git"
+  },
+  "author": "wrq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wurq/GenArch/issues"
+  },
+  "homepage": "https://github.com/wurq/GenArch#readme"
+}
