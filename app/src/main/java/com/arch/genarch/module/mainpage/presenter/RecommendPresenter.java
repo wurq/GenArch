@@ -5,6 +5,7 @@ import android.view.View;
 import com.arch.base.basemodule.presenter.BaseFragmentPresenter;
 import com.arch.genarch.R;
 import com.arch.genarch.module.mainpage.activity.RecommendFragment;
+import com.arch.genarch.module.rnpage.activity.RNActivity;
 
 /**
  * Created by wurongqiu on 2019/2/25.
@@ -20,7 +21,7 @@ public class RecommendPresenter extends BaseFragmentPresenter<RecommendFragment>
         switch (v.getId())  {
             case R.id.button3:
             {
-//                rnex1Activity.start(target.getContext());
+                RNActivity.start(target.getContext());
             }
             break;
         }

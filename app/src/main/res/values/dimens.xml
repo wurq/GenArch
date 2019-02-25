@@ -164,7 +164,7 @@
     <dimen name="loading_no_more_height">45dp</dimen>
     <dimen name="loading_more_line_width">35dp</dimen>
     <dimen name="loading_more_line_margin">10dp</dimen>
-
+    <dimen name="fab_margin">16dp</dimen>
 
 
 </resources>
