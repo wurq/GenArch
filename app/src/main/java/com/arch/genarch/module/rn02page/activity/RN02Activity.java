@@ -42,7 +42,7 @@ public class RN02Activity extends AppCompatActivity implements DefaultHardwareBa
         mReactRootView = new ReactRootView(this);
         mReactInstanceManager = ReactInstanceManager.builder()
                 .setApplication(getApplication())
-//                .setBundleAssetName("index.android.bundle")
+                .setBundleAssetName("index.android.bundle")
                 .setJSMainModulePath("index")
                 .addPackage(new MainReactPackage())
                 .setUseDeveloperSupport(BuildConfig.DEBUG)
