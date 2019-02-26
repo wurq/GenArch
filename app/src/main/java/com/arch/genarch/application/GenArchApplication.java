@@ -8,6 +8,7 @@ import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
+import com.facebook.soloader.SoLoader;
 
 import java.util.Arrays;
 import java.util.List;
@@ -20,7 +21,7 @@ public class GenArchApplication extends Application  implements ReactApplication
     @Override
     public void onCreate() {
         super.onCreate();
-
+        SoLoader.init(this,false);
         Context context = getApplicationContext();
 //        ScreenUtil.GetInfo(context);
         AppProfile.setContext(context);
@@ -40,6 +41,7 @@ public class GenArchApplication extends Application  implements ReactApplication
         @Override
         public boolean getUseDeveloperSupport() {
             return BuildConfig.DEBUG;
+//            return Boolean.parseBoolean("false");
         }
         @Override
         protected List getPackages() {

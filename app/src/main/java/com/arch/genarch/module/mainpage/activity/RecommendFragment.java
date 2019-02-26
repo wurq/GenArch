@@ -27,7 +27,8 @@ public class RecommendFragment  extends BaseFragment<RecommendPresenter> {
         Log.e(TAG,"onCreateView");
         View view = inflater.inflate(R.layout.fragment_recommend, null);
 
-        view.findViewById(R.id.button3).setOnClickListener(presenter);
+        view.findViewById(R.id.rn01).setOnClickListener(presenter);
+        view.findViewById(R.id.rn02).setOnClickListener(presenter);
         return view;
     }
 }

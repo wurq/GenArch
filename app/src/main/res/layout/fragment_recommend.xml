@@ -13,11 +13,17 @@
         android:textSize="50sp"/>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/rn01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="rn—exam"
         android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/rn02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
 
 
 </LinearLayout>

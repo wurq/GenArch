@@ -6,4 +6,5 @@
     <string name="fragment_recommend">首页</string>
     <string name="fragment_classname">同学圈</string>
     <string name="title_activity_rn">RNActivity</string>
+    <string name="title_activity_rn02">RN02Activity</string>
 </resources>
